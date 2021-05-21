@@ -4,27 +4,35 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: "Roboto Mono", monospace;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 18px;
 }
 body{
-    background-color: #3164ff;
+    background-color: yellow;
+    text-align: center;
+}
+body h1{
+    font-size: 30px;
+}
+body p{
+    font-style: italic;
 }
 .wrapper{
     width: 450px;
     background-color: #ffffff;
-    padding: 70px 40px;
+    padding: 30px 40px;
     position: absolute;
     transform: translate(-50%,-50%);
     left: 50%;
     top: 50%;
     box-shadow: 0 20px 25px rgba(0,0,0,0.25);
-    border-radius: 8px;
-    display: flex;
+    border-radius: 30px;
+    display:block;
     justify-content: space-between;
 }
 .container{
-    width: 45%;
+    width: 100%;
+    margin-bottom: 30px;
 }
 input{
     width: 100%;
